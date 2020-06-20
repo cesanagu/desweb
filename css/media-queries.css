@@ -56,6 +56,25 @@
   }
 }
 
+@media (max-width: 599px){
+  .main-home{
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-home section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+  }
+
+  .main-text span{
+    font-size: 40px;
+  }
+}
+
 @media (max-width:480px) {
   header .header-icons-container .icons {
   justify-self: center;
@@ -75,7 +94,7 @@
    margin-bottom: 20px;
  }
 
- .contact2{
+.contact2 a{
    flex-direction: row-reverse;
  }
 
@@ -86,6 +105,10 @@
 }
 
 @media (max-width:320px) {
+  .main-home section{
+    width: 50%;
+  }
+
   .blogpost-img-container{
     padding: 0 5px 5px;
   }

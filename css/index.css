@@ -209,8 +209,8 @@ nav .profile-link a:hover{
   margin-bottom: 50px;
 }
 
-.post-container-img{
-  /* height: 120px; */
+.post-container p{
+  text-align: justify;
 }
 
 .blogs-posts-container .post-container p{
@@ -306,14 +306,19 @@ q{
   justify-content: center;
 }
 
-.contact1 a, .contact2 a{
+.contact1 span, .contact2 span{
   border-bottom: 1px solid #000;
-  padding-bottom: 5px;
+}
+
+.contact1 a, .contact2 a{
+  display: inline-flex;
+  justify-content: center;
 }
 
 .contact1 img, .contact2 img{
   width: 100px;
   padding-right: 10px;
+  height: 100%;
 }
 
 .contact-left, .contact-right{
