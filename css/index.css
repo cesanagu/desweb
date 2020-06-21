@@ -213,12 +213,19 @@ nav .profile-link a:hover{
   text-align: justify;
 }
 
+.post-container-img{
+  width: 100%;
+  height: 200px;
+}
+
+
 .blogs-posts-container .post-container p{
   margin-bottom: 35px;
 }
 
 .blogs-posts-container .post-container img{
   width: 100%;
+  height: 100%;
 }
 
 footer{

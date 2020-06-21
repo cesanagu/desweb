@@ -102,6 +102,10 @@
    height: auto;
    padding: 0 25px 10px;
  }
+
+ .proyects-container{
+   padding: 0;
+ }
 }
 
 @media (max-width:320px) {
