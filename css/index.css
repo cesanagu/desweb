@@ -197,6 +197,10 @@ nav .profile-link a:hover{
   text-align: center;
 }
 
+.blogs-posts-container h2{
+  font-size: 35px;
+}
+
 .blogs-posts-container h3{
   border-bottom: 1px solid #cdd2da;
   padding-bottom: 20px;
@@ -206,7 +210,7 @@ nav .profile-link a:hover{
 .blogs-button{
   border: 1px solid #47cfac;
   padding: 10px 15px;
-  font-size: 12px;
+  font-size: 15px;
   display: block;
   position: absolute;
   right: 0;
@@ -378,7 +382,7 @@ q{
 
 .profile-main-proyects h3{
   border-bottom: 1px solid #cdd2da;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
   text-align: center;
 }
 

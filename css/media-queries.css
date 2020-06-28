@@ -34,15 +34,15 @@
   }
 
   .blogs-posts-container .post-container{
-    height: 500px;
+    height: 450px;
   }
-}
-
-@media (max-width: 600px) {
 
   .grid-container-blogs{
     grid-template-columns: repeat(2,1fr);
   }
+}
+
+@media (max-width: 600px) {
 
   .blogs-posts-container{
     padding: 30px 40px 40px;
@@ -65,6 +65,9 @@
     height: 315px;
   }
 
+  .blogs-posts-container .post-container{
+    height: 500px;
+  }
 
 }
 
