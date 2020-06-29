@@ -218,6 +218,12 @@ nav .profile-link a:hover{
   bottom: 0;
 }
 
+.blogs-button:hover{
+    color: #fff;
+    background-color: #47cfac;
+    /* border-color: #000; */
+}
+
 .post-container{
   height: 450px;
   position: relative;
@@ -366,10 +372,17 @@ q{
 .profile-main-container img{
   width: 320px;
   margin-right: 30px;
+  height: 100%;
+  object-fit: cover;
 }
 
 .profile-main-container .profile-container{
   display: flex;
+  align-items: center;
+}
+
+.profile-img-container{
+  height: 400px;
 }
 
 .profile-container div:nth-child(2){
