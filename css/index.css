@@ -261,13 +261,25 @@ footer{
   /* background: linear-gradient(to right, #29323c, #485563); */
   background: linear-gradient(to right, #00001F, #e74c3c);
   border-top: 2px solid #777;
-  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 footer p{
   color: #fff;
   margin-top: 25px;
   margin-right: 10px;
+}
+
+.blogger-icon{
+  width: 3%;
+}
+
+footer a{
+  color:#fff;
+  text-align: center;
+  margin-right: 15px;
 }
 
 /* blogpost css */

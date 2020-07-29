@@ -163,6 +163,10 @@
  .proyects-container{
    padding: 0;
  }
+
+ .blogger-icon{
+  width: 7%;
+}
 }
 
 @media (max-width:375px) {
